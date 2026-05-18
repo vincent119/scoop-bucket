@@ -1,0 +1,37 @@
+{
+  "version": "0.1.3",
+  "description": "A CLI wrapper for Pulumi infrastructure-as-code workflows, written in Go",
+  "homepage": "https://github.com/vincent119/pulumiGo",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/vincent119/pulumiGo/releases/download/v0.1.3/pulumiGo_Windows_x86_64.zip",
+      "hash": "11c160f1718cb2adf49cba3ac4b62b91de0cbfcb384ea532d65e6a2408750034"
+    },
+    "arm64": {
+      "url": "https://github.com/vincent119/pulumiGo/releases/download/v0.1.3/pulumiGo_Windows_arm64.zip",
+      "hash": "f438f8d178e9582406a54216f314a25a0e54060f4d1ff8b821c148654606bcf5"
+    },
+    "32bit": {
+      "url": "https://github.com/vincent119/pulumiGo/releases/download/v0.1.3/pulumiGo_Windows_i386.zip",
+      "hash": "984ec5c4088d0d054543b3879ce3bc159f2df8f2e6957d5d853ae5ea1725d4ef"
+    }
+  },
+  "bin": "pulumiGo.exe",
+  "checkver": {
+    "github": "https://github.com/vincent119/pulumiGo"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/vincent119/pulumiGo/releases/download/v$version/pulumiGo_Windows_x86_64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/vincent119/pulumiGo/releases/download/v$version/pulumiGo_Windows_arm64.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/vincent119/pulumiGo/releases/download/v$version/pulumiGo_Windows_i386.zip"
+      }
+    }
+  }
+}
