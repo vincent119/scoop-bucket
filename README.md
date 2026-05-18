@@ -13,7 +13,7 @@ scoop bucket add vincent https://github.com/vincent119/scoop-bucket
 ## 應用程式 / Apps
 
 | 名稱 / Name | 說明 / Description |
-|---|---|
+| --- | --- |
 | pulumiGo | A CLI wrapper for Pulumi infrastructure-as-code workflows, written in Go |
 
 ## 使用方式 / Usage
