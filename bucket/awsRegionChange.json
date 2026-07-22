@@ -1,0 +1,22 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vincent119/awsRegionChange/releases/download/v0.1.1/awsRegionChange_Windows_x86_64.zip",
+            "bin": [
+                "awsRegionChange.exe"
+            ],
+            "hash": "ad6252f75114c57d5180c81fedb39f52dc73011202c2e3eef4cdf19696eb4418"
+        },
+        "arm64": {
+            "url": "https://github.com/vincent119/awsRegionChange/releases/download/v0.1.1/awsRegionChange_Windows_arm64.zip",
+            "bin": [
+                "awsRegionChange.exe"
+            ],
+            "hash": "96f0f03102d31089fbb185df2f6f5b3a4c90e3d32fed747a6601dc9ff80d389b"
+        }
+    },
+    "homepage": "https://github.com/vincent119/awsRegionChange",
+    "license": "MIT",
+    "description": "Interactive AWS Profile and Region switcher with TUI"
+}
